@@ -30,9 +30,6 @@ def salvar_dados_tinydb(dados, db_name='bitcoin.json'):
     db.insert(dados)
     print('Dados salvos com sucesso!')
 
-
-
-
 if __name__ == '__main__':
     # Extração dos dados
     dados_json = extract_dados_bitcoin()
