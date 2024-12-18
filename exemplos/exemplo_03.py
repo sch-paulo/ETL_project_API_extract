@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://jsonplaceholder.typicode.com/comments'
+url = "https://api.coinbase.com/v2/prices/spot"
 headers = {
     'Accept': 'application/json',
     'User-Agent': 'MinhaAplicacao/1.0'
