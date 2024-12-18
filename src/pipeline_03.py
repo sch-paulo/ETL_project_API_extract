@@ -14,7 +14,6 @@ from database import Base, BitcoinPreco
 # ------------------------------------------------------------------
 # Configuração Logfire
 logfire.configure()
-LOGFIRE_TOKEN = 'LbLdZpwGbs50Q1ly7Kh9srgX68N3Tpz5tzTtQCyDt6ND'
 basicConfig(handlers=[logfire.LogfireLoggingHandler()])
 logger = getLogger(__name__)
 logger.setLevel(logging.INFO)
